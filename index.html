@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiPortafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./img/web_earth_planet_19311.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Inicio -->
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Acerca</a>
+                <a href="#galeria">Habilidades</a>
+                <a href="#expertos">Proyectos</a>
+                <a href="#comen">Opiniones</a>
+                <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Desarrolladores Web</h1>
+            <p class="copy">"Si puedes imaginarlo, puedes programarlo"</p>
+            <a href="#footer"class="comen">Contactame ahora</a>
+        </div>  
+    </header>
+    <!-- Acerca -->
+    <main>
+        <section class="servicescontenedor" id="servicio">
+            <h2 class="subtitulo">Acerca</h2>
+            <p class="cop">Somos estudiantes de la carrera ING en Software, 5to semestre modalidad online.</p>
+            <div class="contenedor-servicio">
+                <img src="img/isaac2.jpg" alt="">
+                <img src="img/Aron2.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Isaac Viejo</h3>
+                        <p class="n-service1">Primaria:Nectali Pacheco</p>
+                        <p class="n-service1">Secundaria:UE 21 de Julio</p>
+                        <p class="n-service1">Universidad:Unemi</p>
+                        <P class="n-service1">Celular:0945786935</P>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Aron Garcia</h3>
+                        <p class="n-service1">Primaria:Aurora Estrada </p>
+                        <p class="n-service1">Secundaria:UE Vicente Ramon Roca</p>
+                        <p class="n-service1">Universidad:Unemi</p>
+                        <P class="n-service1">Celular:0955616841</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Habilidades -->
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Habilidades:</h2>
+                <p class="cop">Tenemos conocimientos basicos en lo que es Diseño y Desarrollo Web, uso del lenguaje de programacion Python y creacion de base de datos,usamos el editor de texto Visual Studio Code por sus excelentes caracteristicas.</p>
+                <div class="contenedor-galeria">
+                    <img src="img/1.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/2.jpg" class="img-galeria" alt="">
+                    <img src="img/3.png" class="img-galeria" alt="">
+                    <img src="img/4.jpg" class="img-galeria" alt="">
+                    <img src="img/5.png" class="img-galeria" alt="">
+                    <img src="img/6.jpg" class="img-galeria" alt="">
+                </div>
+                <p class="cop1">Algunos cursos realizados son:</p>
+                <p class="cop">*Fundamentos prácticos de la programación desde cero.</p>
+                <p class="cop">*Learn HTML5 programming from scratch.</p>
+                <p class="cop">*Fundamentos de la programación.</p>
+                <p class="cop">*HTML y CSS para emprendedores.</p>
+            </div>
+        </section>
+    <!-- Close -->
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+    <!-- Proyectos -->
+        <section class="gallery" id="expertos">
+            <div class="contenedor">
+                <h2 class="subtitulo">Proyectos:</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/Proyecto/proyecto 1.jpg"  class="img-galeria" alt="Hola">
+                    <img src="img/search_engine.svg" class="img-galeria" alt="">
+                    <img src="img/Proyecto/proyecto 8.jpg" class="img-galeria" alt="">
+                    <img src="img/pie_chart.svg" class="img-galeria" alt="">
+                    <img src="img/Proyecto/v.jpg" class="img-galeria" alt="">
+                    <img src="img/security.svg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+    <!-- Comentarios-->
+        <section class="gallery" id="comen">
+            <div class="contenedor">
+                <h2 class="subtitulo">Comentarios:</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/a.jpeg" class="img-galeria" alt="Hola">
+                    <img src="img/b.jpeg" class="img-galeria" alt="">
+                    <img src="img/c.jpeg" class="img-galeria" alt="">
+                    <img src="img/d.jpeg" class="img-galeria" alt="">
+                    <img src="img/k.jpeg" class="img-galeria" alt="">
+                    <img src="img/l.jpeg" class="img-galeria" alt="">
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer">
+			<div class="contact-us">
+				<h3 class="titulo">Contactame</h3>
+				<form class="formulario" action="">
+					<input type="text" placeholder="Nombre" name="nombre" required>
+					<input type="email" placeholder="Correo" name="correo" required>
+					<textarea name="mensaje" placeholder="Mensaje:"></textarea>
+					<input class="boton" type="submit" value="Enviar">
+				</form>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
